@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+  <test name="API Gov Data Test">
+    <classes>
+      <class name="com.store.qa.test.service.TestDataGovAPI">
+         <methods>
+            <include name="getStationID"/>
+            <include name="getStationStreetAddress"/>
+       </methods>
+        </class>
+    </classes>
+  </test>
+</suite>
